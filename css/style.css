@@ -24,7 +24,6 @@ body
 header
 {
     background: var(--dark);
-    height:800px;
 }
 
 .container
@@ -56,4 +55,27 @@ header nav
 header nav .branding
 {
     margin-right:3rem;
+}
+
+.hero .left img
+{
+    width: 400px;
+}
+
+.hero .right
+{
+    color:var(--pure);
+}
+
+.hero .right h6
+{
+    font: size 1.6rem;
+    color:var(--primary);
+    margin-bottom:0.5rem;
+}
+
+.hero .right h1
+{
+    font-size:4rem;
+    font-weight:100;    
 }
